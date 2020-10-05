@@ -563,7 +563,7 @@ text-align: left;
 	opacity:0.1;
 	background-color:transparent;
 	font-size: 18px; 
-	margin-bottom: 74px;
+	
 
 }
 
@@ -833,7 +833,7 @@ text-align: left;
 
   }
   .des-reg{
-  	margin-bottom: 260px;
+  	margin-bottom: 150px;
   }
   .des-reg h1{
   	display: flex;
@@ -964,6 +964,7 @@ text-align: left;
 	grid-template-columns: auto auto auto auto;
 	grid-column-gap: 120px;
 	margin-left: 150px;
+	magin-top:-40px;
 }
 .logo-des{
 	margin-right: 50px;
