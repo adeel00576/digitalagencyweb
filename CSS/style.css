@@ -60,13 +60,14 @@ header #menu{
 	font-weight: bold;
 	opacity: 100%;
 	margin-bottom: -55px;
+	color: #31384E;
 	
 
 }
 .titlee h2{
 	font-family: 'Open Sans';
 	font-size: 51px;
-	
+	color: #31384E;
 	
 	font-weight:lighter;
 	opacity: 100%;
@@ -159,6 +160,7 @@ header #menu{
 	font-size: 35px;
 	font-weight: bold;
 	margin-bottom: 32px;
+	color: #31384E;
 }
 
 .services-heading p{
@@ -166,6 +168,7 @@ header #menu{
 	opacity: 80%;
 	font-family: "Open Sans";
 	font-size: 18px;
+	color: #697598;
 	color: #697598;
 
 }
@@ -185,7 +188,7 @@ header #menu{
 #buisness-strategy h2{
 	font-family: "Open Sans";
 	opacity: 100%;
-	color: #FFFFFF;
+	color: #31384E;
 	font-weight: normal;
 	font-size: 22px;
 	margin-bottom: 50px;
@@ -196,6 +199,7 @@ header #menu{
 	font-weight: normal;
 	font-size: 22px;
 	margin-bottom: 50px;
+	color: #31384E;
 
 }
 #content-marketing h2{
@@ -204,6 +208,8 @@ header #menu{
 	font-weight: normal;
 	font-size: 22px;
 	margin-bottom: 50px;
+	color: #31384E;
+
 
 }
 #buisness-strategy p{
@@ -212,20 +218,21 @@ header #menu{
 	color: #FFFFFF;
 	font-weight: normal;
 	font-size: 18px;
+	color: #31384E;
 }
 #buisness-analysis p{
 	font-family: "Open Sans";
 	opacity: 100%;
 	font-weight: normal;
 	font-size: 18px;
-
+	color: #31384E;
 }
 #content-marketing p{
 	font-family: "Open Sans";
 	opacity: 100%;
 	font-weight: normal;
 	font-size: 18px;
-
+	color: #31384E;
 }
 
 .service-grid #buisness-strategy{
@@ -314,6 +321,7 @@ header #menu{
 	opacity: 100%;
 	font-weight: normal;
 	font-size: 40px;
+	color: #31384E;
 
 }
 #business-opp h2{
@@ -323,6 +331,7 @@ header #menu{
 	font-weight: lighter;
 	font-size: 40px;
 	margin-top:-30px;
+	color: #31384E;
 
 
 }
@@ -333,6 +342,7 @@ header #menu{
 	opacity: 70%;
 	font-weight: lighter;
 	font-size: 18px;
+	 color: #31384E;
 	
 
 }
@@ -380,6 +390,8 @@ header #menu{
 	opacity: 100%;
 	font-weight: normal;
 	font-size: 40px;
+	color: #31384E;
+
 
 }
 #client-propelied h2{
@@ -389,6 +401,7 @@ header #menu{
 	font-weight: lighter;
 	font-size: 40px;
 	margin-top:-30px;
+	color: #31384E;
 
 }
 #client-propelied p{
@@ -398,6 +411,7 @@ text-align: left;
 	opacity: 70%;
 	font-weight: lighter;
 	font-size: 18px;
+	color: #31384E;
 }
 #client-propelied a{
 	text-align: left;
@@ -422,12 +436,14 @@ text-align: left;
 	font-family: 'Open Sans';
 	font-size: 35px;
 	font-weight: bold;
+	color: #31384E;
 }
 .case-studies p{
 	text-align: center;
 	opacity: 80%;
 	font-family: "Open Sans";
 	font-size: 18px;
+	color: #697598;
 }
 
 .case-study-grid{
@@ -474,6 +490,7 @@ text-align: left;
 	opacity: 100%;
 	font-weight: normal;
 	font-size: 30px;
+	color: #31384E;
 
 
 }
@@ -484,6 +501,7 @@ text-align: left;
 	font-weight: normal;
 	font-size: 30px;
 	margin-bottom: 60px;
+	color: #31384E;
 }
 
 .case-study-grid #case-study-3-text h2{
@@ -492,6 +510,7 @@ text-align: left;
 	opacity: 100%;
 	font-weight: normal;
 	font-size: 30px;
+	color: #31384E;
 }
 .case-study-grid #case-study-1-text p{
 	text-align: left;
@@ -499,6 +518,7 @@ text-align: left;
 	opacity: 50%;
 	font-weight: lighter;
 	font-size: 18px;
+	color: #31384E;
 
 }
 .case-study-grid #case-study-2-text p{
@@ -508,6 +528,7 @@ text-align: left;
 	font-weight: lighter;
 	opacity: 50%;
 	font-size: 18px;
+	color: #31384E;
 	
 }
 .case-study-grid #case-study-3-text p{
@@ -516,6 +537,7 @@ text-align: left;
 	opacity: 50%;
 	font-weight: lighter;
 	font-size: 18px;
+	color: #31384E;
 	
 }
 #case-study-2-img {
@@ -565,6 +587,7 @@ text-align: left;
 	font-weight: normal;
 	opacity: 80%
 	font-size: 13px;
+	color: #31384E;
 
 }
 .backgoud{
@@ -652,11 +675,12 @@ text-align: left;
 	font-family: "Open Sans";
 	opacity: 90%;
 	font-weight: normal;
+	color: #31384E;
 
 }
 .number1 #imig1 h3{
 	
-
+	color: #31384E;
 	font-family: "Open Sans";
 	opacity: 80%;
 	font-weight: lighter;
@@ -667,6 +691,7 @@ text-align: left;
 	font-family: "Open Sans";
 	opacity: 90%;
 	font-weight: normal;
+	color: #31384E;
 
 }
 .number2 #imig2 h3{
@@ -674,6 +699,7 @@ text-align: left;
 	font-family: "Open Sans";
 	opacity: 80%;
 	font-weight: normal;
+	color: #31384E;
 
 }
 .number3 #imig3 h1{
@@ -681,6 +707,7 @@ text-align: left;
 	font-family: "Open Sans";
 	opacity: 100%;
 	font-weight: normal;
+	color: #31384E;
 
 }
 .number3 #imig3 h3{
@@ -689,6 +716,7 @@ text-align: left;
 	font-family: "Open Sans";
 	opacity: 100%;
 	font-weight: normal;
+	color: #31384E;
 
 }
 .number2 #imig2 #texty{
@@ -700,6 +728,7 @@ text-align: left;
 .number3 #imig3 #texty h3{
 	display: flex;
 	flex-direction: column;
+	color: #31384E;
 }
 .number4 #heading-name {
 	display: flex;
@@ -707,7 +736,7 @@ text-align: left;
 }
 .number4 #heading-name h1{
 	display: flex;
-	
+	color: #31384E;
 	font-family: "Open Sans";
 	opacity: 100%;
 	font-weight: normal;
@@ -719,6 +748,7 @@ text-align: left;
 	opacity: 100%;
 	font-weight: normal;
 	font-weight: 40px;
+	color: #31384E;
 }
 .number4 img{
 	width:46px;
@@ -812,6 +842,7 @@ text-align: left;
 	opacity: 100%;
 	font-weight: normal;
 	margin-bottom: -40px;
+	color: #31384E;
 
   }
   .des-reg h3{
@@ -820,6 +851,7 @@ text-align: left;
 	font-family: "Open Sans";
 	opacity: 100%;
 	font-weight: lighter;
+	color: #31384E;
 
   }
   .des-reg p{
@@ -829,7 +861,7 @@ text-align: left;
 	opacity: 70%;
 	font-weight: normal;
 	font-size: 18px;
-
+	color: #31384E;
 
   }
   /*.btno{
@@ -878,14 +910,14 @@ text-align: left;
 
 }
 .subs-head h1{
-
+	color: #31384E;
 	font-family: "Open Sans";
 	opacity: 100%;
 	font-weight: normal;
 	font-size: 40px;
 }
 .subs-head h2{
-	
+	color: #31384E;
 	font-family: "Open Sans";
 	opacity: 100%;
 	font-weight: lighter;
@@ -942,6 +974,7 @@ text-align: left;
 	opacity: 60%;
 	font-weight: normal;
 	font-size: 15px;
+	color: #31384E;
 
 }
 .serv-des h1{
@@ -949,18 +982,21 @@ text-align: left;
 	opacity: 100%;
 	font-weight: bold;
 	font-size: 25px;
+	color: #31384E;
 }
 .serv-des h3{
 	font-family: "Open Sans";
 	opacity: 60%;
 	font-weight: normal;
 	font-size: 17px;
+	color: #31384E;
 }
 .about-des h1{
 	font-family: "Open Sans";
 	opacity: 100%;
 	font-weight: bold;
 	font-size: 25px;
+	color: #31384E;
 
 }
 .about-des h3{
@@ -968,12 +1004,14 @@ text-align: left;
 	opacity: 60%;
 	font-weight: normal;
 	font-size: 17px;
+	color: #31384E;
 }
 .Address-des h1{
 	font-family: "Open Sans";
 	opacity: 100%;
 	font-weight: bold;
 	font-size: 25px;
+	color: #31384E;
 
 }
 .Address-des h3{
@@ -981,6 +1019,7 @@ text-align: left;
 	opacity: 60%;
 	font-weight: normal;
 	font-size: 17px;
+	color: #31384E;
 }
  a{
 	
@@ -990,6 +1029,7 @@ footer p{
 	font-family: "Open Sans";
 	opacity: 70%;
 	font-size: 16px;
+	color: #31384E;
 
 }
 footer {
