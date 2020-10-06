@@ -296,7 +296,7 @@ header #menu{
 	
 	display: inline-grid;
 	grid-template-columns: auto auto;
-	margin-left: 160px;
+	margin-left: 170px;
 	margin-right: 40px;
 	column-gap: 20px;
 	background-color: #F9F9F9;
@@ -332,6 +332,7 @@ header #menu{
 	font-size: 40px;
 	margin-top:-30px;
 	color: #31384E;
+	margin-bottom: 30px;
 
 
 }
@@ -343,6 +344,7 @@ header #menu{
 	font-weight: lighter;
 	font-size: 18px;
 	 color: #31384E;
+	 margin-bottom: 50px;
 	
 
 }
@@ -350,7 +352,7 @@ header #menu{
 	text-align: left;
 	font-family: "Open Sans";
 	opacity: 100%;
-	font-size: 15px;
+	font-size: 18px;
 	margin-top: 20px;
 	background-color: transparent;
 	padding-right: 30px;
@@ -368,23 +370,23 @@ header #menu{
 	
 	display: inline-grid;
 	grid-template-columns: auto auto;
-	margin-left: 180px;
-	margin-right: 120px;
+	margin-left: 120px;
+	/*margin-right: 120px;*/
 	column-gap: 20px;
 	/*background-color: #F9F9F9;*/
-	margin-bottom: 222px;
+	margin-bottom: 223px;
 
 }
 .client-prop-grid #client-propelied{
 	background-color: #FFFFFF;
-	padding-left: -10px;
-	padding-right: 100px;
+	padding-left: 5px;
+	padding-right: 370px;
 	margin-right: -180px;
-	margin-top: 256px;
-	/*padding-top: 256px;*/
+	/*margin-top: 256px;*/
+	padding-top: 256px;
 
 }
-#client-propelied h1{
+.client-prop-grid #client-propelied h1{
 	text-align: left;
 	font-family: "Open Sans";
 	opacity: 100%;
@@ -394,7 +396,7 @@ header #menu{
 
 
 }
-#client-propelied h2{
+.client-prop-grid #client-propelied h2{
 	text-align: left;
 	font-family: "Open Sans";
 	opacity: 100%;
@@ -404,7 +406,7 @@ header #menu{
 	color: #31384E;
 
 }
-#client-propelied p{
+.client-prop-grid #client-propelied p{
 
 text-align: left;
 	font-family: "Open Sans";
@@ -412,23 +414,25 @@ text-align: left;
 	font-weight: lighter;
 	font-size: 18px;
 	color: #31384E;
+	margin-bottom: 50px;
 }
-#client-propelied a{
+.client-prop-grid #client-propelied a{
 	text-align: left;
 	font-family: "Open Sans";
 	opacity: 100%;
 	font-size: 15px;
-	margin-top: 100px;
+	/*margin-top: 100px;*/
 	background-color: transparent;
 	padding-right: 30px;
 
 }
 .client-prop-grid #prop-img{
-	margin-right: 10px;
-	padding-left: -190px;
+	/*margin-right: -80px;*/
+	margin-left: -160px;
+	padding-left: -150px;
 	margin-bottom: -100px;
-	hieght:802px;
-	width: 708px;
+	/*hieght:780px;
+	width: 682px;*/
 
 }
 .case-studies h1{
@@ -437,6 +441,7 @@ text-align: left;
 	font-size: 35px;
 	font-weight: bold;
 	color: #31384E;
+	margin-bottom: 34px;
 }
 .case-studies p{
 	text-align: center;
@@ -444,6 +449,7 @@ text-align: left;
 	font-family: "Open Sans";
 	font-size: 18px;
 	color: #697598;
+	margin-bottom: 84px;
 }
 
 .case-study-grid{
@@ -452,28 +458,28 @@ text-align: left;
 
 
 	grid-template-columns: auto auto auto;
-	grid-column-gap: 31px;
+	grid-column-gap: 21px;
 	margin-bottom: 80px;
 	
-	margin-left: 180px;
+	margin-left: 120px;
 	margin-right: 50px;
 
 }
 .case-study-1{
 	box-shadow: 10px 10px 8px #F9F9F9;
 	background-color: #FAFAFA;
-	padding: 20px;
+	padding: 3px;
 
 }
 .case-study-2{
 	box-shadow: 10px 10px 8px #F9F9F9;
-	padding: 20px;
+	padding: 3px;
 
 }
 .case-study-3{
 	box-shadow: 10px 10px 8px #F9F9F9;
 	background-color: #FAFAFA;
-	padding: 20px;
+	padding: 3px;
 
 }
 /*.case-study-grid p{
@@ -484,6 +490,7 @@ text-align: left;
 	font-size: 20px;
 
 }*/
+
 .case-study-grid #case-study-1-text h2{
 	text-align: left;
 	font-family: "Open Sans";
@@ -491,6 +498,7 @@ text-align: left;
 	font-weight: normal;
 	font-size: 30px;
 	color: #31384E;
+	margin-bottom: 23px;
 
 
 }
@@ -500,8 +508,9 @@ text-align: left;
 	opacity: 100%;
 	font-weight: normal;
 	font-size: 30px;
-	margin-bottom: 60px;
+	/*margin-bottom: 60px;*/
 	color: #31384E;
+	margin-bottom: 23px;
 }
 
 .case-study-grid #case-study-3-text h2{
@@ -511,6 +520,7 @@ text-align: left;
 	font-weight: normal;
 	font-size: 30px;
 	color: #31384E;
+	margin-bottom: 23px;
 }
 .case-study-grid #case-study-1-text p{
 	text-align: left;
@@ -541,11 +551,24 @@ text-align: left;
 	
 }
 #case-study-2-img {
-	margin-bottom: 120px;
+	/*margin-bottom: 120px;*/
+	height: 386px;
+	width:366px;
+	margin-bottom: 45px;
 }
+#case-study-1-img{
+	height: 386px;
+	width:366px;
+	margin-bottom: 45px;
+}
+#case-study-3-img{
+	height: 366px;
+	width:366px;
+	margin-bottom: 45px;
 
+}
 .btn-seemore{
-	margin-top: 80px;
+	
 
 	
   margin-left: 585px;
@@ -570,27 +593,30 @@ text-align: left;
 .awesome-flex {
 	
 	display: flex;
-
-	
+	margin-right: -20px;
+	width: 100%;
+	/*height: 100%;*/
 	column-gap: 10px;
 	background-color: transparent;
 	position: absolute;
 	bottom: 52%;
-	left:20%;
-	
+	right: -20%;
+
 	
 
 
 }
-.awesome-flex p{
+/*.awesome-flex p{
 	font-family: "Open Sans";
 	font-weight: normal;
 	opacity: 80%
 	font-size: 13px;
-	color: #31384E;
+	
 
-}
+}*/
 .backgoud{
+	width: 100%;
+	height: 100%;
 	position: relative;
 	top: 200px;
 	right:30%;
@@ -602,134 +628,167 @@ text-align: left;
 
 .number1{
 	background-color: #FFFFFF;
-	padding: 10px;
+	padding: 5px;
 	margin-top: 200px;
 	 box-shadow: 5px 10px #F9F9F9;
 
-	margin-right: 10px;
+	margin-right: 5px;
 	border-bottom-right-radius: 10px;
+	height: 280px;
+	width: 386px;
+
 }
 .number2{
 	background-color: #FFFFFF;
-	padding: 30px;
-	margin-right: 10px;
+	padding: 5px;
+	margin-right: 5px;
 	border-bottom-right-radius: 10px;
 	margin-top: 200px;
 	 box-shadow: 5px 10px #F9F9F9;
+	height: 280px;
+	width: 386px;
+
 
 }
 .number3{
 	background-color: #FFFFFF;
-	padding: 10px;
-	margin-right: 10px;
+	padding: 5px;
+	margin-right: 5px;
 	border-bottom-right-radius: 10px;
 	margin-top: 200px;
 	 box-shadow: 5px 10px #F9F9F9;
+	 height: 280px;
+	width: 386px;
 }
 .number4{
 	background-color: #FFFFFF;
 	/*margin-right: 60px;*/
-	padding: 10px;
+	padding: 5px;
 	border-bottom-right-radius: 10px;
 	margin-top: 200px;
 	 box-shadow: 5px 10px #F9F9F9;
+	  height: 280px;
+	width: 386px;
+	margin-right: 270px;
 	
 }
 .number2 #imig2{
 	display: flex;
+	height: 90px;
+	width: 90px;
 }
 
 .number3 #imig3{
 	display: flex;
+	height: 90px;
+	width: 90px;
 
 }
 .number1 #imig1{
 	display: flex;
+	height: 90px;
+	width: 90px;
 
 }
-/*.number1 #one{
+.number1 #one p{
 	font-family: "Open Sans";
 	font-weight: normal;
 	opacity: 80%
-	font-size: 13px;
+	font-size: 17px;
+	color: #31384E;
 
 
 }
-.number2 #two{
+.number2 #two p{
 	font-family: "Open Sans";
 	font-weight: normal;
-	font-size: 13px;
+	font-size: 17px;
 	opacity: 80%
-	
+	color: #31384E;	
 
 }
-.number3 #three{
+.number3 #three p{
 	font-family: "Open Sans";
 	font-weight: normal;
-	font-size: 13px;
+	font-size: 17px;
 	opacity: 80%
+	color: #31384E;
 
-}*/
-.number1 #imig1 h1{
+}
+.number1 #texty-1 h1{
 	display: flex;
+	flex-direction: column;
 	font-family: "Open Sans";
-	opacity: 90%;
+	opacity: 100%;
 	font-weight: normal;
 	color: #31384E;
+	font-size: 20px;
 
 }
-.number1 #imig1 h3{
+.number1 #texty-1 h3{
 	
 	color: #31384E;
 	font-family: "Open Sans";
-	opacity: 80%;
+	opacity: 60%;
 	font-weight: lighter;
 
 }
-.number2 #imig2 h1{
+.number2 #imig2 #texty-2 h1{
 	display: flex;
-	font-family: "Open Sans";
-	opacity: 90%;
-	font-weight: normal;
-	color: #31384E;
-
-}
-.number2 #imig2 h3{
-	display: flex;
-	font-family: "Open Sans";
-	opacity: 80%;
-	font-weight: normal;
-	color: #31384E;
-
-}
-.number3 #imig3 h1{
-	display: flex;
+	flex-direction: row;
 	font-family: "Open Sans";
 	opacity: 100%;
 	font-weight: normal;
 	color: #31384E;
+	font-size: 20px;
 
 }
-.number3 #imig3 h3{
+.number2 #imig2 #texty-2 h3{
+	display: flex;
+	flex-direction: row;
+	font-family: "Open Sans";
+	opacity: 60%;
+	font-weight: normal;
+	color: #31384E;
+
+}
+.number3 #imig3 #texty-3 h1{
 	display: flex;
 	flex-direction: column;
 	font-family: "Open Sans";
 	opacity: 100%;
 	font-weight: normal;
 	color: #31384E;
+	font-size: 20px;
 
 }
-.number2 #imig2 #texty{
+.number3 #imig3 #texty-3 h3{
+	display: flex;
 	flex-direction: row;
+	font-family: "Open Sans";
+	opacity: 60%;
+	font-weight: normal;
+	color: #31384E;
+
 }
-.number3 #imig3 #texty{
-	flex-direction: row;
+.number2 #imig2  #texty-2{
+	/*display: flex;
+	flex-direction: column*/;
 }
-.number3 #imig3 #texty h3{
+.number3 #imig3  #texty-3{
+	/*display: flex;
+	flex-direction: column;*/
+}
+/*.number3 #imig3 #texty h3{
 	display: flex;
 	flex-direction: column;
 	color: #31384E;
 }
+.number3 #imig3 #texty h1{
+	display: flex;
+	flex-direction: column;
+	color: #31384E;
+}*/
 .number4 #heading-name {
 	display: flex;
 	flex-direction: column;
