@@ -5,7 +5,7 @@ body{
 .Home{
 
 overflow: hidden;
-border: 1px solid #000000;
+
 
 }
 
@@ -39,8 +39,9 @@ margin-right: auto;
 }
 .header a{
 	display: inline;
+
 	font-family: "Open Sans";
-	
+	text-decoration: none;
 	opacity: 100%;
 	color: #C4C9D9;
 	
@@ -58,6 +59,7 @@ margin-right: auto;
 }
 .navbar {
 	position: absolute;
+	padding-top: 15px;
 	top:8px;
 	right:90px;
 	margin-left: auto;
@@ -82,7 +84,7 @@ margin-right: auto;
 	margin-left: 180px;
 	margin-top: 110px;
 	margin-bottom: 50px;
-	border: 1px solid #000000;
+	
 
 
 }
@@ -135,7 +137,7 @@ margin-right: auto;
 .clientLogo {
 	margin-top: 80px;
 	margin-left: 180px;
-	border: 1px solid #000000;
+	
 	display: inline;
 	background-color: #FFFFFF;
     width: 100%;
@@ -172,7 +174,7 @@ margin-right: auto;
 }
  .services-heading{
  	margin-bottom: 85px;
- 	border: 1px solid #000000;
+ 	
  }
  .services-heading h5{
  	margin-top: 129px;
@@ -215,7 +217,7 @@ margin-right: auto;
 	margin-left: auto;
 	margin-right: auto;
 	width: fit-content;
-	border: 1px solid #000000;
+	
 	
 }
 #buisness-strategy h2{
@@ -327,7 +329,7 @@ margin-right: auto;
 	margin-right: auto;
 	column-gap: 20px;
 	background-color: #F9F9F9;
-	border: 1px solid #000000;
+	
 	
 
 }
@@ -397,23 +399,30 @@ margin-right: auto;
 .client-prop-grid{
 	
 	display:grid;
-	grid-template-columns: repeat(2, 600px);
+	grid-template-columns: repeat(2, 700px);
 	margin-left: auto;
 	margin-right: auto;
 	/*margin-right: 120px;*/
 	column-gap: 30px;
 	/*background-color: #F9F9F9;*/
 	margin-bottom: 223px;
-	border: 1px solid #000000;
+	
+
+
 
 }
 .client-propelied{
 	background-color: #FFFFFF;
-	padding-left: 100px;
-	padding-right: 100px;
-	/*margin-right: -120px;*/
-	/*margin-top: 256px;*/
-	padding-top: 256px;
+
+	padding-left: 60px;
+	padding-right: 50px;
+	/*margin-right: -120px;
+	margin-top: 256px;
+	padding-top: 256px;*/
+	grid-gap: 10px;
+	margin-top: auto;
+	margin-bottom: auto;
+	
 
 }
 .client-propelied h1{
@@ -457,15 +466,19 @@ text-align: left;
 
 }
 .prop-img{
-	height: fit-content;
-	width: fit-content;
+	height:802px;
+	margin-left: -100px;
+	width: 708px;
+
+
+	
 	/*margin-left: -100px;*/
 
 }
 
 .case-studies
 {
-	border: 1px solid black;
+	
 }
 
 .case-studies h1{
@@ -645,13 +658,14 @@ text-align: left;
 	/*margin-right: 0px;*/
 	/*width: 100%;*/
 	height: 493px;
-	width: 1250px;
-	grid-gap: 35px;
+	width: fit-content;
+	grid-gap: 25px;
+
 	background-color: transparent;
 	position: absolute;
 	bottom: 65%;
 	left: 16.4%;
-	border: 1px solid #000000;
+	
 }
 /*.awesome-flex p{
 	font-family: "Open Sans";
@@ -664,7 +678,7 @@ text-align: left;
 .backgoud{
 
 	position: relative;
-
+	
 	top: 200px;
 	right:30%;
 	overflow: hidden;
@@ -682,7 +696,7 @@ text-align: left;
 	margin-top: 200px;
 	box-shadow: 0px 15px 43px #000000;
 	height: 250px;
-	width: 260px;
+	
 	border-top-left-radius: 20px;
 	border-bottom-right-radius: 10px;
 	
@@ -696,7 +710,7 @@ text-align: left;
 	padding-top: 7px;
 	padding-bottom: 30px;
 	height: 250px;
-	width: 260px;
+	
 	border-bottom-right-radius: 10px;
 	margin-top: 200px;
 	 border-top-left-radius: 20px;
@@ -713,7 +727,7 @@ text-align: left;
 	padding-top: 7px;
 	padding-bottom: 30px;
 	height: 250px;
-	width: 260px;
+	
 	border-bottom-right-radius: 10px;
 	margin-top: 200px;
 	box-shadow: 0px 15px 43px #000000;
@@ -736,7 +750,7 @@ text-align: left;
 	border-radius: 10px;
 	/*box-shadow: 0px 15px 43px #000000;*/
 	height: 250px;
-	width: 260px;
+	width: 300px;
 	border-top-left-radius: 20px;
 	border-bottom-right-radius: 10px;
 	  
@@ -899,7 +913,7 @@ text-align: left;
 	height: 593px;
 	width: fit-content;
 	padding: 5px;
-	border: 1px solid #000000;
+	
 
 	
 }
@@ -1024,10 +1038,8 @@ text-align: left;
 
   }*/
   .btno #btnn{
-  	padding-right: 46px;
-  	padding-left: 47px;
-  	padding-bottom: 18px;
-  	padding-top: 18px;
+  	width: 210px;
+  	height: 60px;
   	background-image: linear-gradient(#0B42F5, #34B3FF);
   	color: #FFFFFF;
   	 border: 1px solid #4CAF50;
@@ -1049,7 +1061,7 @@ text-align: left;
   	width: fit-content;
   	 margin-right: auto;
    margin-left: auto;
-  	border: 1px solid #000000;
+  	
   	margin-top: 130px;
 
   	
@@ -1082,10 +1094,8 @@ text-align: left;
 
 }
 .Subs-flex #btn{
-	padding-right: 63px;
-  	padding-left: 62px;
-  	padding-bottom: 23px;
-  	padding-top: 23px;
+	height: 70px;
+	width: 207px;
   	background-image: linear-gradient(#0B42F5, #34B3FF);
   	color: #FFFFFF;
   	 border: 1px solid #4CAF50;
@@ -1101,16 +1111,15 @@ text-align: left;
 }
 .Subs-flex input{
 	
-	padding-left: 35px;
-	padding-top: 23px;
-	padding-bottom: 23px;
-	padding-right: 303px;
+	height: 70px;
+	width: 460px;
 	background-color: #ECF0FC;
 	border-radius: 50px;
 	opacity: 30%;
 	border: 1px solid #31384E;
 
 }
+
 
 .web-des-grid{
 	display: grid;
@@ -1121,14 +1130,18 @@ text-align: left;
 	padding-top: 130px;
 	min-height: 374px;
 	width: fit-content;
-	border: 1px solid #000000;
+	
 	
 }
 .logo-des{
 	
-	margin-right: 100px;
+	padding-right: 100px;
 	margin-top: 22px;
 }
+.logo-des #logoss{
+	width: 10vw;
+}
+
 .logo-des h3{
 	font-family: "Open Sans";
 	opacity: 60%;
@@ -1212,7 +1225,7 @@ text-align: left;
 
 }
 .footerr {
-	border: 1px solid black;
+	
 	
 	margin-top: 150px;
     margin-left: auto;
@@ -1236,9 +1249,9 @@ text-align: left;
 		width: 100%;
 	}
 	.header{
-		margin-top: 0px;
+		margin-top: 25px;
     	display: flex;
-    	margin-bottom: 30px;
+    	margin-bottom: 0px;
     	flex-direction: column;
     	margin-left: auto;
     	margin-right: auto;
@@ -1250,33 +1263,53 @@ text-align: left;
 	}
 	.illustration{
 		display: flex;
-		height: fit-content;
-		width: fit-content;
+		
+		height: 210vh;
+		width: 130vw;
+		
 
 	}
 	.navbar {
-		margin-top: 20px;
+		display: flex;
+		flex-direction: column;
+		margin-top: 150px;
+		position: absolute;
+		top: 0px;
+		left: 40%;
+		right: 50%;
+		/*width: fit-content;*/
+		height:fit-content;
+		margin-right: auto;
+		margin-left: auto;
 		
 
 
 	}
-	.navbar img{
-		display: block;
-		width: fit-content;
+	.logu{
+		
+		height: fit-content;
+		margin-top: -500px;
+		padding-left: 0px;
+
+
 
 	}
-	.navbar #home{
-		color: black;
+	.navbar #homee{
+		font-family: "Open Sans";
+		color: #C4C9D9;
     	font-size: 30px;
 
 	}
 	.navbar a{
+		font-family: "Open Sans";
 		margin-top: 10px;
     	display: block;
     	text-align: left;
-    	width: fit-content;
-    	color: black;
+    	/*width: fit-content;*/
+    	color: #C4C9D9;
     	font-size: 30px;
+    	display:flex;
+    	flex-direction: column;
     	margin-right: 60px;
 	}
 	/*.front{
@@ -1318,14 +1351,14 @@ text-align: left;
 	}*/
 
 	.titlee{
-		margin-top: 370px;
+		margin-top: 0px;
 
 		margin-bottom: auto;
 		display: flex;
 		height: fit-content;
 		width: fit-content;
 		flex-direction: column;
-		margin-left: 180px;
+		margin-left: 120px;
 	}
 	
 
@@ -1376,7 +1409,7 @@ text-align: left;
 	}
 	.clientLogo{
 		display: flex;
-		margin-left: 120px;
+		margin-left: 70px;
 		height: fit-content;
 		width: 15%;
 
@@ -1470,13 +1503,15 @@ text-align: left;
 
 	}
 	.prop-img{
-		height: fit-content;
-		width: fit-content;
+		width: 30vw;
+		height: 150vh;
+		
 	}
 	.case-study-grid{
 		
 		display: flex;
 		flex-direction: column;
+		margin-bottom: 1350px;
 
 
 
@@ -1513,15 +1548,31 @@ text-align: left;
 	}
 	.backgoud{
 		display: flex;
+		overflow: visible;
+
+		
+		/*height: fit-content;*/
 		position: relative;
-		top:100%px;
+		/*top:900px;*/
+		/*right: 50%;*/
+
 		
 	}
 	.awesome-flex{
 		display: flex;
 		flex-direction: column;
+		overflow: visible;
+		margin-bottom: 800px;
+		margin-left: auto;
+		margin-right: auto;
+		width: fit-content;
+		grid-gap: 1px;
 		position: absolute;
-		left: 18%;
+		left: 29.4%;
+		/*left:145px;*/
+		top: -250px;
+
+		
 	}
 	/*.number1{
 		width: fit-content;
@@ -1569,6 +1620,7 @@ text-align: left;
 		flex-direction: column;
 		margin-right:auto;
 		margin-left: auto;
+		margin-top: 700px;
 		/*height: fit-content;*/
 
 	}
@@ -1581,17 +1633,27 @@ text-align: left;
 	.Subs{
 		display: flex;
 		flex-direction: column;
-		height: fit-content;
+		/*height: fit-content;*/
 		margin-right:auto;
 		margin-left: auto ;
 		margin-top: 400px;
 
 	}
 	.Subs-flex{
+		display: flex;
+		flex-direction: column;
 		margin-top: 130px;
+		height: fit-content;
+		width: fit-content;
+
 		
 
 		}
+		.Subs-flex input{
+			margin-bottom: 10px;
+		}
+
+
 	
 	.web-des-grid{
 		display: flex;
