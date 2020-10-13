@@ -30,7 +30,7 @@ margin-right: auto;
 	width: fit-content;
 		height: fit-content;
 	opacity: 100%;
-	padding-left: 80px;
+	padding-left: 180px;
 }
 .backsymbol{
 	position: relative;
@@ -329,19 +329,20 @@ margin-right: auto;
 	margin-right: auto;
 	column-gap: 20px;
 	background-color: #F9F9F9;
+	padding-left: 60px;
 	
 	
 
 }
 .business-opportunities-grid #buisness-img{
 	height: 578px;
-	width: 586px;
+	width: 576px;
 
 }
 .business-opportunities-grid #business-opp{
 	background-color: #FFFFFF;
 	padding-left: 50px;
-	padding-right: 20px;
+	padding-right: 10px;
 	
 
 }
