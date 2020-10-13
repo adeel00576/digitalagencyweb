@@ -414,11 +414,11 @@ margin-right: auto;
 	
 	display:grid;
 	grid-template-columns: repeat(2, 700px);
-	margin-left: auto;
-	margin-right: auto;
-	/*margin-right: 120px;*/
+	/*margin-left: auto;
+	margin-right: auto;*/
+	
 	column-gap: 30px;
-	/*background-color: #F9F9F9;*/
+	
 	margin-bottom: 223px;
 	padding-left: 10px;
 	
@@ -431,13 +431,11 @@ margin-right: auto;
 
 	padding-left: 60px;
 	padding-right: 50px;
-	/*margin-right: -120px;
-	margin-top: 256px;
-	padding-top: 256px;*/
+	
 	grid-gap: 10px;
 	margin-top: auto;
 	margin-bottom: auto;
-	/*width: 624px;*/
+	
 	
 
 }
@@ -485,6 +483,8 @@ text-align: left;
 .prop-img{
 	height:802px;
 	margin-left: -100px;
+	margin-right: auto;
+	/*padding-left: -200px;*/
 	width: 708px;
 
 
@@ -535,12 +535,14 @@ text-align: left;
 	background-color: #FAFAFA;
 	padding: 15px;
 	height: 587px;
+	width: 386px;
 
 }
 .case-study-2{
 	box-shadow: 0px 10px 42px #000000;
 	padding: 15px;
 	height: 587px;
+	width: 386px;
 
 }
 .case-study-3{
@@ -548,6 +550,7 @@ text-align: left;
 	background-color: #FAFAFA;
 	padding: 15px;
 	height: 587px;
+	width: 386px;
 
 }
 /*.case-study-grid p{
@@ -672,7 +675,7 @@ text-align: left;
 	/*width: 100%;*/
 	height: 493px;
 	width: fit-content;
-	grid-gap: 25px;
+	grid-gap: 35px;
 	margin-bottom: 260px;
 
 	background-color: transparent;
@@ -710,7 +713,7 @@ text-align: left;
 	margin-top: 200px;
 	box-shadow: 0px 15px 43px #000000;
 	height: 250px;
-	
+	width: 262px;
 	border-top-left-radius: 20px;
 	border-bottom-right-radius: 10px;
 	
@@ -724,7 +727,7 @@ text-align: left;
 	padding-top: 7px;
 	padding-bottom: 30px;
 	height: 250px;
-	
+	width: 262px;
 	border-bottom-right-radius: 10px;
 	margin-top: 200px;
 	 border-top-left-radius: 20px;
@@ -741,7 +744,7 @@ text-align: left;
 	padding-top: 7px;
 	padding-bottom: 30px;
 	height: 250px;
-	
+	width: 262px;
 	border-bottom-right-radius: 10px;
 	margin-top: 200px;
 	box-shadow: 0px 15px 43px #000000;
@@ -1382,6 +1385,7 @@ text-align: left;
 		flex-direction: column;
 		margin-left: auto;
 		margin-right: auto;
+		
 	}
 	
 
@@ -1492,6 +1496,11 @@ text-align: left;
 		width: 100%;
 		height: auto;
 	}
+	.business-opportunities-grid #business-opp{
+		margin-right: auto;
+		margin-left: auto;
+		width: 624px;
+	}
 	/*.business-opportunities-grid #business-opp h1{
 		font-size: 20px;
 
@@ -1532,10 +1541,14 @@ text-align: left;
 	.client-propelied{
 		margin-left: auto;
 		margin-right: auto;
+		width: 624px;
 	}
 	.prop-img{
-		width: 30vw;
-		height: 150vh;
+		width: fit-content;
+		height: fit-content;
+		margin-right: auto;
+		margin-left: auto;
+		
 		
 	}
 	.case-study-grid{
@@ -1602,9 +1615,9 @@ text-align: left;
 		margin-left: auto;
 		margin-right: auto;
 		width: fit-content;
-		grid-gap: 1px;
+		grid-gap: 0px;
 		position: absolute;
-		left: 29.4%;
+		left: 62.4%;
 		/*left:145px;*/
 		top: -250px;
 
@@ -1664,6 +1677,9 @@ text-align: left;
 		/*display: flex;*/
 		/*height: fit-content;
 		width: fit-content;*/
+		width: 527px;
+		margin-right: auto;
+		margin-left: auto;
 
 	}
 	.Subs{
@@ -1673,6 +1689,7 @@ text-align: left;
 		margin-right:auto;
 		margin-left: auto ;
 		margin-top: 400px;
+		width: 500px;
 
 	}
 	.Subs-flex{
@@ -1680,7 +1697,9 @@ text-align: left;
 		flex-direction: column;
 		margin-top: 130px;
 		height: fit-content;
-		width: fit-content;
+		width: 594px;
+		margin-left: auto;
+		margin-right: auto;
 
 		
 
